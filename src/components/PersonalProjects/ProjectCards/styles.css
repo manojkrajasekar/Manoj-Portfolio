@@ -1,0 +1,25 @@
+.ProjectCard__Container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 5px;
+    margin: 25px;
+    background-color: #191919;
+}
+
+.ProjectCard__Container > .ProjectCard__title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0.4em;
+}
+
+.ProjectCard__Container > .ProjectCard__links {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.ProjectCard__Container > .ProjectCard__decription {
+    font-size: 10px;
+    margin: 10px;
+}

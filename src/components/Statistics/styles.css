@@ -1,0 +1,11 @@
+.stats__card_container {
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.stats__card_container > .stats__card {
+    border: 1x solid black;
+    width: 30%;
+}

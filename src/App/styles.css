@@ -1,0 +1,31 @@
+.portfolio__container {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.profile__image {
+    margin: 1em;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+.profile__description {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    margin: 1em auto;
+}
+
+.Experience__container {
+    display: flex;
+}
+
+.Experience__container:hover  {
+transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
